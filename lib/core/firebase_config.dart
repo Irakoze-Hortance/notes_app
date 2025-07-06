@@ -53,9 +53,9 @@ class FirebaseConfig {
 
   // Development Settings
   static const bool enableDebugMode = kDebugMode;
-  static const bool enableAnalytics = true;
-  static const bool enableCrashlytics = true;
-  static const bool enablePerformanceMonitoring = true;
+  static const bool enableAnalytics = false;
+  static const bool enableCrashlytics = false;
+  static const bool enablePerformanceMonitoring = false;
 
   // UI Settings
   static const Duration animationDuration = Duration(milliseconds: 300);
